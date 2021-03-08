@@ -1,6 +1,6 @@
 import React from "react";
 
-onClickButton(event){
+function onClickButton(event){
 	event.preventDefault();
 }
 
