@@ -1,7 +1,7 @@
 import React from "react";
 
-function onClickButton(event){
-	event.preventDefault();
+function onClickButton(event) {
+  event.preventDefault();
 }
 
 function Contact() {
@@ -56,7 +56,11 @@ function Contact() {
               </div>
 
               <div className="col-12 pt-3">
-                <button onClick={this.onClickButton} className="btn btn-outline-primary" type="submit">
+                <button
+                  onClick={onClickButton}
+                  className="btn btn-outline-primary"
+                  type="submit"
+                >
                   Submit form
                 </button>
               </div>
